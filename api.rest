@@ -4,6 +4,12 @@
 
 GET {{url}}/notes
 
+[
+1,
+2,
+3
+]
+
 ###
 
 POST {{url}}/notes Content-Type: application/json
