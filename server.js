@@ -5,35 +5,32 @@ const cors = require('koa2-cors');
 const koaBody = require('koa-body');
 
 const app = new Koa();
-
 app.use(cors());
-app.use(koaBody({json: true}));
-
-const notes = [];
-let nextId = 1;
+app.use(koaBody());
 
 const router = new Router();
-
-router.get('/notes', async (ctx, next) => {
-  ctx.response.body = notes;
+router.get('/', async (ctx, next) => {
+  ctx.response.body = {status: "main"};
+});
+router.get('/data', async (ctx, next) => {
+  ctx.response.body = {status: "ok"};
+});
+router.get('/error', async (ctx, next) => {
+  ctx.response.status = 500;
+  ctx.response.body = {status: "Internal Error"};
+});
+router.get('/loading', async (ctx, next) => {
+  await new Promise(resolve => {
+    setTimeout(() => {
+      resolve();
+    }, 5000);
+  });
+  ctx.response.body = {status: "ok"};
 });
 
-router.post('/notes', async(ctx, next) => {
-  notes.push({...ctx.request.body, id: nextId++});
-  ctx.response.status = 204;
-});
+app.use(router.routes())
+app.use(router.allowedMethods());
 
-router.delete('/notes/:id', async(ctx, next) => {
-  const noteId = Number(ctx.params.id);
-  const index = notes.findIndex(o => o.id === noteId);
-  if (index !== -1) {
-    notes.splice(index, 1);
-  }
-  ctx.response.status = 204;
-});
-
-app.use(router.routes()).use(router.allowedMethods());
-
-const port = process.env.PORT || 7777;
+const port = process.env.PORT || 7070;
 const server = http.createServer(app.callback());
-server.listen(port, () => console.log('server started'));
+server.listen(port);
