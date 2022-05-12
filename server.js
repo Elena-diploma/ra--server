@@ -9,9 +9,6 @@ app.use(cors());
 app.use(koaBody());
 
 const router = new Router();
-router.get('/', async (ctx, next) => {
-  ctx.response.body = {status: "main"};
-});
 router.get('/data', async (ctx, next) => {
   ctx.response.body = {status: "ok"};
 });
