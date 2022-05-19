@@ -47,33 +47,6 @@ router.get('/api/services/:id', async (ctx, next) => {
   const body = services[index];
   return fortune(ctx, body);
 });
-router.post('/api/services', async (ctx, next) => {
-  const id = ctx.request.body.id;
-  if (id !== 0) {
-    const index = services.findIndex(o => o.id === id);
-    if (index === -1) {
-      const status = 404;
-      return fortune(ctx, null, status);
-    }
-    services[index] = ctx.request.body;
-    return fortune(ctx, null, 204);
-  }
-
-  services.push({ ...ctx.request.body, id: nextId++ });
-  const status = 204;
-  return fortune(ctx, null, status);
-});
-router.delete('/api/services/:id', async (ctx, next) => {
-  const id = Number(ctx.params.id);
-  const index = services.findIndex(o => o.id === id);
-  if (index === -1) {
-    const status = 404;
-    return fortune(ctx, null, status);
-  }
-  services.splice(index, 1);
-  const status = 204;
-  return fortune(ctx, null, status);
-});
 
 app.use(router.routes());
 app.use(router.allowedMethods());
