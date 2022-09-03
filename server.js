@@ -126,6 +126,22 @@ router.post('/api/order', async (ctx, next) => {
     return fortune(ctx, null, 204);
 });
 
+router.get('/data', async (ctx, next) => {
+    ctx.response.body = {status: "ok"};
+});
+router.get('/error', async (ctx, next) => {
+    ctx.response.status = 500;
+    ctx.response.body = {status: "Internal Error"};
+});
+router.get('/loading', async (ctx, next) => {
+    await new Promise(resolve => {
+        setTimeout(() => {
+            resolve();
+        }, 5000);
+    });
+    ctx.response.body = {status: "ok"};
+});
+
 app.use(router.routes());
 app.use(router.allowedMethods());
 
