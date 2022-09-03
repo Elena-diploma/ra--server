@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="744c5e65-ed91-4994-8ea6-c3ced305f0d0" name="Changes" comment="2 commit">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.foreverignore" beforeDir="false" afterPath="$PROJECT_DIR$/.foreverignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api.rest" beforeDir="false" afterPath="$PROJECT_DIR$/api.rest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="28TyPKs9WjYhdq05s5k6cweOpkO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.prestart">
+    <configuration name="api#10" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/api.rest" index="10" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="api#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/api.rest" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="prestart" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="prestart" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="watch" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="watch" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.prestart" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.watch" />
+        <item itemvalue="HTTP Request.api#2" />
+        <item itemvalue="HTTP Request.api#10" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="744c5e65-ed91-4994-8ea6-c3ced305f0d0" name="Changes" comment="" />
+      <created>1651254845287</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651254845287</updated>
+      <workItem from="1651254848352" duration="2551000" />
+      <workItem from="1651662012675" duration="838000" />
+      <workItem from="1651664782082" duration="232000" />
+      <workItem from="1651863118349" duration="1556000" />
+      <workItem from="1651866314834" duration="102000" />
+      <workItem from="1652361215744" duration="492000" />
+      <workItem from="1652544196196" duration="1405000" />
+      <workItem from="1652969249703" duration="1464000" />
+      <workItem from="1652981648837" duration="478000" />
+      <workItem from="1654015221750" duration="2842000" />
+      <workItem from="1654170390762" duration="1450000" />
+    </task>
+    <task id="LOCAL-00001" summary="1 commit">
+      <created>1651256343708</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651256343708</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2 commit">
+      <created>1651864604827</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651864604827</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1 commit">
+      <created>1652544236384</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652544236385</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1 commit">
+      <created>1652969416292</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652969416292</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1 commit">
+      <created>1652981742259</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652981742260</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1 commit">
+      <created>1654170567672</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654170567672</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1 commit" />
+    <MESSAGE value="2 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 commit" />
+  </component>
+</project>
